@@ -8,5 +8,7 @@ namespace PryUserArellanoVFAG.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<PryUserArellanoVFAG.Models.Exam> Exams { get; set; }
     }
 }
